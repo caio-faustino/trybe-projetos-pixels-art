@@ -57,15 +57,16 @@ main {
 
 #pixel-board {
   text-align: center;
-  display: inline-block;
+  display: table;
   flex-direction: column;
   box-sizing: border-box;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 .line {
-  display: flex;
-  flex-direction: row;
-  width: 200px;
+  display: tabl;
+
 }
 
 .pixel {
@@ -73,4 +74,7 @@ main {
   width: 40px;
   background-color: white;
   border: black solid 1px;
+  display: table-cell;
+  box-sizing: border-box;
 }
+
