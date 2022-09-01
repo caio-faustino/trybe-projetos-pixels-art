@@ -7,7 +7,6 @@ function colorRandomizer() {
 
   for (let i = 1; i < colors.length; i += 1) {
     randomColor = Math.floor(Math.random() * 16777215).toString(16);
-    
     colors[i].style.backgroundColor = `#${randomColor}`;
     colorStorage[i] = `#${randomColor}`;
   }
@@ -22,6 +21,9 @@ function colorRestore() {
   }
 }
 
+const botaoCor = document.getElementById('button-random-color');
+botaoCor.addEventListener('click', colorRandomizer);
+
 function start() {
   if (localStorage.getItem('colorPalette') === null) {
     colorRandomizer();
@@ -29,8 +31,5 @@ function start() {
     colorRestore();
   }
 }
-
-const botaoCor = document.getElementById('button-random-color');
-botaoCor.addEventListener('click', colorRandomizer);
 
 window.onload = start;
