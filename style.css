@@ -44,7 +44,6 @@ main {
 }
 
 #button {
-  text-align: center;
   justify-content: center;
   margin-top: 8px;
 }
@@ -56,16 +55,14 @@ main {
 }
 
 #pixel-board {
-  text-align: center;
-  display: table;
+  display: inline-block;
   flex-direction: column;
   box-sizing: border-box;
-  margin-top: 50px;
-  margin-left: 50px;
+  
 }
 
 .line {
-  display: tabl;
+  display: table;
 
 }
 
