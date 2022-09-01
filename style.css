@@ -1,1 +1,40 @@
- 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    border: 5px solid black;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    background-color: green;
+}
+
+#color-palette {
+    text-align: center;
+}
+
+.color {
+    display: inline-block;
+    border: 1px solid black;
+    margin-top: 1%;
+    padding: 3%;
+    margin-left: -4px;
+}
+
+#div01 {
+    background-color: green;
+}
+
+#div02 {
+    background-color: burlywood;
+}
+
+#div03 {
+    background-color: gray;
+}
+
+#div04 {
+    background-color: royalblue;
+}
