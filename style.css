@@ -15,7 +15,7 @@ header {
   background-color: green;
 }
 
-#color-palette {
+main {
   text-align: center;
 }
 
@@ -53,4 +53,25 @@ header {
   border-radius: 5px;
   background-color: green;
   color: white;
+}
+
+#pixel-board {
+  text-align: center;
+  display: inline-block;
+  flex-direction: column;
+  box-sizing: border-box;
+  flex-flow: row wrap;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+}
+
+.pixel {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border: black solid 1px;
 }
