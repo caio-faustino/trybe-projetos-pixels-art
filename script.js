@@ -25,12 +25,10 @@ function colorCatch(index) {
   const selected = document.getElementsByClassName('selected');
   selected[0].classList.remove('selected');
   colors[index].classList.add('selected');
-
 }
 
 for (let j = 0; j < colors.length; j += 1) {
   colors[j].addEventListener('click', () => { colorCatch(j); });
-  
 }
 
 const botaoCor = document.getElementById('button-random-color');
