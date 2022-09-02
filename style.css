@@ -9,7 +9,6 @@ h1 {
 
 header {
   text-align: center;
-  border: 5px solid black;
   padding-top: 1.5%;
   padding-bottom: 1.5%;
   background-color: green;
@@ -52,6 +51,15 @@ main {
   border-radius: 5px;
   background-color: green;
   color: white;
+}
+
+#clear-board {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+
 }
 
 #pixel-board {
